@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex03</title>
+</head>
+<body>
+    <script>
+        var dias = window.Number.parseInt(prompt('Quantos dias teve a viagem? '))
+        var horas = window.prompt('Teve dias a mais? ')
+        if ( horas == 'sim' || horas == 's' || horas == 'Sim'){
+            var h = window.Number.parseInt(prompt('Quantas horas a mais teve a viagem? '))
+            window.alert(`A viagem durou ${dias} dias e ${h} horas`)
+        }
+        else if( horas == 'nao' || horas == 'n' || horas == 'Não'){
+            window.alert(`A viagem durou ${dias} dias.`)
+        }
+    </script>
+</body>
+</html>
