@@ -15,3 +15,8 @@ console.error('João Pedro D. Oliveira')
     - Documentar o código
     - Relemnbrar no futuro oq faz
 */
+
+// Sintaxe em JS
+console.log("Em JS o ponto e vírgula é opcional")
+
+// A sintaxe dos comandos têm que estar coerente para o códio funcionar
