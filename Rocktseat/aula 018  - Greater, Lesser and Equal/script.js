@@ -8,5 +8,5 @@ console.log(balance < payment)
 console.log(balance > payment)
 
 // >= maior ou igual a
-balance = 200
+balance = payment
 console.log(balance >= payment)
