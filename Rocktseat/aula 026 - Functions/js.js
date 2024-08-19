@@ -1,0 +1,20 @@
+function msg(){
+    console.log("Hello Word")
+}
+
+msg()
+msg()
+msg()
+msg()
+msg()
+msg()
+msg()
+msg()
+msg()
+msg()
+msg()
+msg()
+msg()
+msg()
+msg()
+msg()
