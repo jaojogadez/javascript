@@ -6,3 +6,15 @@ const input = document.querySelector("input")
 //     console.log(event.key)
 // })
 
+// keypress - do tipo caracter somente
+input.addEventListener("keypress", (event) => {
+    console.log(event.key)
+})
+
+input.onchange = () =>{
+    inputChange()
+}
+
+function inputChange(){
+    console.log('O input mudou')
+}
