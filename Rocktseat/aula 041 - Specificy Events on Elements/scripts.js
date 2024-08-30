@@ -1,18 +1,21 @@
-const ul = document.querySelector('ul')
-// addicioando evento a elemneto específico
-ul.addEventListener("scroll", (event) => {
-    if(ul.scrollTop > 300){
-        // console.log("Fim da lista")
+const form = document.querySelector('form')
 
-        ul.scrollTo({
-            top:0,
-            behavior: "smooth"
-        })
-    }
-})
+form.onsubmit = (event) => {
+    event.preventDefault()
+    console.log("Você fez submite")
+}
+form.onsubmit = (event) => {
+    event.preventDefault()
+    console.log("Você fez submite 2")
+}
 
-const btn = document.querySelector("button")
-btn.addEventListener("click", (e) =>{
+
+form.addEventListener("submit", (e) => {
     e.preventDefault()
-    console.log("Clicou eeeee")
+
+    console.log("Hello word 3")
+})
+form.addEventListener("submit", (e) => {
+    e.preventDefault()
+    console.log("Hello word 4")
 })
