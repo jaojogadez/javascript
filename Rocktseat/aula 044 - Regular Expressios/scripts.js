@@ -1,20 +1,38 @@
-const input = document.querySelector("input")
+const input = document.querySelector('input')
+const form = document.querySelector("form")
 
-// keydown - pressionar tecla (qualquer uma )
-// input.addEventListener("keydown", (event) => {
-//     event.preventDefault()
-//     console.log(event.key)
+
+// input.addEventListener("input", () => {
+//     const value= input.value
+
+//     const regex = /\D+/g // Regex = padrão
+
+//     // Retorna o padrão encontrado na string
+//     // console.log(value.match(regex))
+
+//     // Testa se atende
+//     // const isValid = regex.test(value)
+//     // console.log(isValid)
 // })
 
-// keypress - do tipo caracter somente
-input.addEventListener("keypress", (event) => {
-    console.log(event.key)
+
+form.addEventListener("submit",(e) =>{
+    e.preventDefault()
+    const value = input.value
+    const regex = /\D+/g // Regex = padrão
+    if(regex.test(value)){
+        console.log(value)
+        alert("Padrão Encontrado")
+    }
+    else{
+        alert("Valor Inválido. Digite corretamente")
+    }
+
+    // const value = input.value.replace(regex, "")
+    // console.log(value)
 })
 
-input.onchange = () =>{
-    inputChange()
-}
 
-function inputChange(){
-    console.log('O input mudou')
-}
+
+
+
