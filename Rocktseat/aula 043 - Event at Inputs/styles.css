@@ -64,7 +64,7 @@ input {
 
 input:focus {
   outline: 0;
-  border-color: #8234e9;
+  border-color: #e21a43;
 }
 
 input:disabled {

@@ -4,6 +4,7 @@
 
 
 function addGuest(){
+    
     const guests = document.querySelector("ul")
 
     // variavel para criar a new element
