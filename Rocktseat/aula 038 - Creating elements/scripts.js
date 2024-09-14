@@ -10,6 +10,7 @@ function addGuest(){
     // variavel para criar a new element
     const newGuest = document.createElement("li")
     newGuest.classList.add('guest');
+    
     const newName = document.createElement("span")
     newName.textContent = "Diego" // add the name
 
