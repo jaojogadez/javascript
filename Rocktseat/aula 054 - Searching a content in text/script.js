@@ -8,7 +8,7 @@ console.log(message.indexOf("Javascript"))
 
 
 // check if the word exist
-console.log(message.includes("fundamentos"))
+console.log(message.toLowerCase().includes("fundamentos"))
 console.log(message.toUpperCase().includes("FUNDAMENTOS"))
 
 console.log(message)
