@@ -1,0 +1,8 @@
+let date = new Date("July 3, 2025 13:31:00")
+date.getFullYear(2030)
+date.setMonth(1)
+date.setDate(10)
+date.setHours(12)
+date.setMinutes(0)
+date.setSeconds(20)
+console.log(date)
