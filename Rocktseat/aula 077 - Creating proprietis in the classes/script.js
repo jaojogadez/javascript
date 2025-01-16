@@ -6,5 +6,4 @@ class Product {
 }
 
 const product = new Product("Computer", "Teclado")
-console.log(product.name)
-console.log(product.surname)
+console.log(product.name, product.surname)
