@@ -28,9 +28,10 @@ console.log(
     minute: "2-digit",
   })
 );
-let amount = 10.5
-console.log(amount.toLocaleString("pt-br", {
+let amount = 10.5;
+console.log(
+  amount.toLocaleString("pt-br", {
     style: "currency",
-    currency: "BRL"
-}))
-
+    currency: "BRL",
+  })
+);
