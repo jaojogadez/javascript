@@ -35,3 +35,9 @@ book.category = "Neto" // Não mudou
 book.author.name = "Netinho" // Não mudou
 
 console.log(book)
+
+
+const updateBook = {
+  ...book,
+  title: "Criando um front ent moderno com HTML"
+}
