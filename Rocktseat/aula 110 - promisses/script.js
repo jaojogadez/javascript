@@ -1,4 +1,5 @@
 // função que retorna uma promise
-function asyncFunction (params) => {
-  
+function asyncFunction (params){
+  console.log("Olá")
 }
+
