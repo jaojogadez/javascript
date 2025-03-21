@@ -13,18 +13,19 @@ function asyncFunction(params) {
   });
 }
 
-console.log("Executando uma função assíncrona")
+async function fetch() {
+  const response = await asyncFunction();
+  console.log(response);
+}
 
-// Visualizando que o retorno é uma promise
-console.log(
-  asyncFunction()
-    .then((response) => {
-      console.log("Sucesso: ", response);
-    })
-    .catch((error) => {
-      console.log("Error: ", error);
-    })
-    .finally(() => {
-      console.log("Fim da execução");
-    })
-);
+let fetch2 = async () => {
+  try {
+    const response = await asyncFunction()
+    console.log("Sucesso")
+  } catch (error) {
+    console.log(error)
+  }
+};
+
+fetch2();
+fetch();
